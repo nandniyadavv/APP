@@ -7,3 +7,4 @@ promotion_eligible(Name) :-
     employee(Name, Years, completed, Rating),
     Years >= 5,
     Rating >= 4.
+
