@@ -12,3 +12,4 @@ revised_prices = list(map(discounted_price, prices))
 print("Prices after festival discount:", [round(price, 2) for price in revised_prices])
 
 print("Original prices:", prices)
+
