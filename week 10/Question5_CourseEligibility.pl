@@ -13,3 +13,4 @@ data_structures_pass(divya).
 course_eligible(Student) :-
     python_pass(Student),
     data_structures_pass(Student).
+
