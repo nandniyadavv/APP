@@ -10,3 +10,4 @@ print("Marks after grace marks:", grace_marks)
 
 total_marks = reduce(lambda total, mark: total + mark, grace_marks, 0)
 print("Total marks after grace marks:", total_marks)
+
