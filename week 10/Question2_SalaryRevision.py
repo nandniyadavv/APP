@@ -12,3 +12,4 @@ print("Salaries after revision:", [round(salary, 2) for salary in revised_salari
 
 total_expenditure = reduce(lambda total, salary: total + salary, revised_salaries, 0)
 print("Total salary expenditure after revision: ₹", round(total_expenditure, 2))
+
