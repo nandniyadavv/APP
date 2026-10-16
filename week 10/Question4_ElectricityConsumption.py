@@ -18,3 +18,4 @@ def electricity_bill(units):
 daily_bills = list(map(electricity_bill, consumption))
 print("Bills for each day (₹):", daily_bills)
 print("Original consumption data:", consumption)
+
