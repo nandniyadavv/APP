@@ -6,3 +6,4 @@ parking_slot(s5, car, occupied).
 
 available_slot(VehicleType, Slot) :-
     parking_slot(Slot, VehicleType, available).
+
